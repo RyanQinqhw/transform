@@ -15,6 +15,9 @@
 		68221C9D2058F42700EE756C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68221C9C2058F42700EE756C /* main.m */; };
 		68221CA72058F42700EE756C /* transformTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68221CA62058F42700EE756C /* transformTests.m */; };
 		68221CB22058F42700EE756C /* transformUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68221CB12058F42700EE756C /* transformUITests.m */; };
+		68221CC12058F95000EE756C /* AffineTransformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68221CC02058F95000EE756C /* AffineTransformationViewController.m */; };
+		68221CC42059094800EE756C /* 3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68221CC32059094800EE756C /* 3DViewController.m */; };
+		68221CC72059185E00EE756C /* SolidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68221CC62059185E00EE756C /* SolidViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		68221CAD2058F42700EE756C /* transformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = transformUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68221CB12058F42700EE756C /* transformUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = transformUITests.m; sourceTree = "<group>"; };
 		68221CB32058F42700EE756C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68221CBF2058F95000EE756C /* AffineTransformationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AffineTransformationViewController.h; sourceTree = "<group>"; };
+		68221CC02058F95000EE756C /* AffineTransformationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AffineTransformationViewController.m; sourceTree = "<group>"; };
+		68221CC22059094800EE756C /* 3DViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 3DViewController.h; sourceTree = "<group>"; };
+		68221CC32059094800EE756C /* 3DViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = 3DViewController.m; sourceTree = "<group>"; };
+		68221CC52059185E00EE756C /* SolidViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolidViewController.h; sourceTree = "<group>"; };
+		68221CC62059185E00EE756C /* SolidViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolidViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				68221C8E2058F42700EE756C /* AppDelegate.m */,
 				68221C902058F42700EE756C /* ViewController.h */,
 				68221C912058F42700EE756C /* ViewController.m */,
+				68221CBF2058F95000EE756C /* AffineTransformationViewController.h */,
+				68221CC02058F95000EE756C /* AffineTransformationViewController.m */,
+				68221CC22059094800EE756C /* 3DViewController.h */,
+				68221CC32059094800EE756C /* 3DViewController.m */,
+				68221CC52059185E00EE756C /* SolidViewController.h */,
+				68221CC62059185E00EE756C /* SolidViewController.m */,
 				68221C932058F42700EE756C /* Main.storyboard */,
 				68221C962058F42700EE756C /* Assets.xcassets */,
 				68221C982058F42700EE756C /* LaunchScreen.storyboard */,
@@ -267,6 +282,9 @@
 			files = (
 				68221C922058F42700EE756C /* ViewController.m in Sources */,
 				68221C9D2058F42700EE756C /* main.m in Sources */,
+				68221CC12058F95000EE756C /* AffineTransformationViewController.m in Sources */,
+				68221CC42059094800EE756C /* 3DViewController.m in Sources */,
+				68221CC72059185E00EE756C /* SolidViewController.m in Sources */,
 				68221C8F2058F42700EE756C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
